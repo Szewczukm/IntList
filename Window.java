@@ -39,7 +39,7 @@ public class Window {
 	private JFrame plsInt = new JFrame();
 	
 	/**
-	 * Nested class to clean up some JFrame windows
+	 * Nested class to clean up some JFrame windows 
 	 * @author Mark Szewczuk
 	 *
 	 */
