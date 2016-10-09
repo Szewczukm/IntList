@@ -1,4 +1,4 @@
-package intList;
+package IntList;
 
 import java.io.IOException;
 
