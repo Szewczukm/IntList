@@ -10,6 +10,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
+/**
+ * Backend list handling and file creation -- only works on windows
+ * @author Mark Szewczuk
+ *
+ */
 public class ListHandling {
 	
 	private ArrayList<String> intList = new ArrayList<String>();
@@ -82,7 +87,7 @@ public class ListHandling {
 	}
 
 	/**
-	 * populate a class-based array (possibly useless?)
+	 * populate a class-based array 
 	 * @throws IOException
 	 */
 	public void populate() throws IOException{
