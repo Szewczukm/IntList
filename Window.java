@@ -21,8 +21,6 @@ import javax.swing.JTextField;
  */
 public class Window {
 	private ListHandling lh = new ListHandling();
-	private CheckWindow ch;
-	private IntWindow iw;
 	private JFrame plsInt = new JFrame();
 	
 	/**
@@ -114,8 +112,8 @@ public class Window {
 	
 	public Window() throws IOException{
 		lh.onStart();
-		ch = new CheckWindow();
-		iw = new IntWindow();
+		new CheckWindow();
+		new IntWindow();
 	}
 	
 	
